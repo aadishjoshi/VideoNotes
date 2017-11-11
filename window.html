@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
   </head>
   <body>
-  
-
-  <div class="titlebar">
-  	<center>My Video Notes</center>
-  </div>
-  <br><br>
-<div class="row" style="background: #000;">
-  <div class="column left">
-   		<div class="search_area" style="background: #00FF00;">
-   			<div id="search_bar">
-   				<input type="search" id="search_url" style="border-radius: 5px;">
-   			</div>
-   			<div id="search_button" style="float: left;">
-   				<button type="submit" id="Search">Search</button>
-   			</div>
-   		</div>
-   		<br><br>
-
-   		<div>
-   			<iframe width="450" height="315" src="https://www.youtube.com/embed/jZhQOvvV45w" frameborder="0" allowfullscreen></iframe>
-
-
-   		</div>
 
 
 
-  </div>
+	  <div class="container-fluid">
 
-  <div class="column right">
-    <h2>Column 2</h2>
-    <p>Some text..</p>
-  </div>
-</div>
+	  	<div class="row outer_title">
+	  		<div class="inner_title myfont">
+	  			<center>My Video Notes</center>
+	  		</div>
+	  	</div>
+		  	<br>
+	  		<br>
+	  	<div class="row">
+		  	<div class="col-md-7" style="background: #2d2d2d;">
+		  		
+	   			<div class="input-group search_url_outer">
+      				<input type="text" class="form-control" style="height: 27px;font-size: 12px;" placeholder="Search for...">
+      				<span class="input-group-btn">
+        				<button class="btn btn-default myfont" style="height: 27px;font-size: 12px;background: #00ff00" type="submit">
+        					Search
+        				</button>
+      				</span>
+    			</div>
 
+    			<br>
+      			<br>
 
-  </div>
+      			<div class="embed-responsive embed-responsive-16by9">
+ 					<!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6-RQI2mi718"></iframe> -->
+					<webview class="embed-responsive-item" src="https://www.youtube.com/embed/6-RQI2mi718" style="height:400px;"></webview>
+				</div>
+
+      			<!-- <webview class="embed-responsive-item" src="https://www.youtube.com/embed/6-RQI2mi718" style="width:400px; height:300px"></webview> -->
+
+      			<!-- 16:9 aspect ratio -->
+				<!-- <div class="embed-responsive embed-responsive-16by9">
+ 					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6-RQI2mi718"></iframe>
+				</div>
+ -->
+				<br>
+      			<br>
+		  	</div>
+
+		  	<div class="col-md-5" style="background: #00ff00;">'
+		  	Second
+		  	</div>
+
+	  	</div>
+
+	  </div>
+
+	 
   </body>
 </html>

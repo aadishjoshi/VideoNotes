@@ -2,6 +2,8 @@ html,body {
     margin: 5px;
     padding: 5px;
 }
+
+
 .header {
   margin: 0;
 }
@@ -25,5 +27,27 @@ html,body {
 .search_url_outer{
 	margin-left: 5px;
 	margin-top: 10px;
-	background: blue;
+}
+
+.second_title{
+	margin-top: 10px;
+	background: #00ff00;
+}
+
+.second_secondary_title{
+	margin-top: 10px;
+}
+
+#action_buttons{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.Video_class{
+	margin-left: 5px;
+	margin-top: 8px;
+}
+#timepass{
+	border: 1px solid #000;
+	height: 350px;
 }
